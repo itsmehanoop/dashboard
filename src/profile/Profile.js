@@ -5,8 +5,8 @@ class Profile extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      lastName: 'Hanoop',
-      firstName: 'TK',
+      lastName: 'TK',
+      firstName: 'Hanoop',
       age: 30,
       degree: 'B Tech',
       company: 'HCL technologies',
