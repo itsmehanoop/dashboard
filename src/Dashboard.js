@@ -9,12 +9,10 @@ class Dashboard extends Component {
   render() {
     return (
       <div className="dashboard">
-      
         <Header />
         <div className='content'>
           <Profile />
         </div>
-        
       </div>
     );
   }
