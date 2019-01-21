@@ -6,16 +6,16 @@ import './Dashboard.scss';
 
 class Dashboard extends Component {
   
-  render() {
-    return (
-      <div className="dashboard">
-        <Header />
-        <div className='content'>
-          <Profile />
-        </div>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="dashboard">
+                <Header />
+                <div className='content'>
+                    <Profile />
+                </div>
+            </div>
+        );
+    }
 }
 
 export default Dashboard;
