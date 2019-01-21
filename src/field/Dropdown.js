@@ -12,7 +12,7 @@ class Dropdown extends Component {
   
     render() {
         return (
-            <select onChange={this.onChange}>
+            <select className='combobox' onChange={this.onChange}>
                 {this.props.data.map((item, i) => <Options key={i} item={item}/>)}
             </select>
         );

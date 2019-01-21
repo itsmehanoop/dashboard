@@ -1,18 +1,26 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import Dashboard from './Dashboard';
-import About from './About';
+import 'materialize-css/dist/css/materialize.min.css';
+import 'materialize-css/dist/js/materialize.min.js';
+import { Provider } from 'react-redux';
+import store from './Store';
+import './field/Fields.scss';
 
-import { Link, Router, Route, BrowserRouter, Switch } from 'react-router-dom';
+
+
+import { BrowserRouter } from 'react-router-dom';
 import Dropdown from './field/Dropdown';
 import App from './App';
 //import registerServiceWorker from './registerServiceWorker';
 
 render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
+    <Provider store={store}>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </Provider>
+    ,
+    document.getElementById('root')
 );
 //registerServiceWorker();
