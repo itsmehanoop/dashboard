@@ -1,0 +1,16 @@
+.footer {
+    height: 7em;
+    line-height: 7em;
+    width: 100%;
+    text-align: center;
+    background-color: #003554;
+    color: #FFF;
+    a {
+        text-decoration: none;
+        margin: 0 1em 0 1em;
+        color: #FFF;
+        &:hover {
+            text-decoration: underline
+        }
+    }
+}

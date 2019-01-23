@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import wrapper from './wrapper/Wrapper';
 import './About.scss';
 
 class About extends Component {
@@ -13,4 +14,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default wrapper(About);

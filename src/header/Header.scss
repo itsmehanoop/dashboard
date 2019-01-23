@@ -1,0 +1,19 @@
+$line-height-header : 5em;
+
+.header {
+    height: $line-height-header;
+    line-height: $line-height-header;
+    width: 100%;
+    background-color: #003554;
+    color: #FFF;
+    position: relative;
+    .title {
+        font-size: 2em;
+        position: absolute;
+        left: 10px;
+    }
+    .details {
+        position: absolute;
+        right: 10px;
+    }
+}
